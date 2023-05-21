@@ -1,0 +1,109 @@
+body {
+    background-color: #252525;
+    font-weight: 500;
+}
+
+p::selection, 
+h1::selection, 
+h2::selection, 
+h3::selection, 
+h4::selection, 
+h5::selection, 
+h6::selection,
+a::selection {
+    background: #59ba00;
+    color: #252525;
+}
+
+header img {
+    max-width: 100px;
+}
+
+.navbar {
+    background-color: #252525;
+}
+
+.navbar-toggler,form .btn-xblog, .btn-xblog, #cabecalho .nav .nav-link.active, .nav .text-colored3.active {
+    background-color: #59ba00;
+    color: #252525;
+}
+
+form .btn-xblog:hover, .btn-xblog:hover {
+    background-color: #5aba0088;
+    color: #252525;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #59ba00;
+}
+
+.text-colored3, .nav .text-colored3.active {
+    color: #000;
+}
+
+.bg-transparent, .bg-transparent:hover {
+    border-color: #59ba00;
+}
+
+.form-control:focus {
+    color: #252525;
+    background-color: #fff;
+    border-color: #59ba00;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(89 186 0 / 25%);
+}
+
+.section-title {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #fff;
+}
+
+.text-colored, .text-colored3:hover {
+    color: #000;
+}
+
+.text-colored2 {
+    color: #59ba00;
+}
+
+.nav-link.active {
+    background-color: #252525;
+    color: #59ba00;
+}
+
+.nav-link:hover {
+    color: #59ba00;
+}
+
+.social-links li, .xbox-links li {
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+}
+
+#eventos {
+    background-color: grey;
+}
+
+.xbox-links ul li img {
+    max-width: 220px;
+}
+
+.bg-sobre {
+    background-color: #59ba00;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        max-height: 280px;
+    }
+}

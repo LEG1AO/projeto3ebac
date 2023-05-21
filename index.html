@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container d-inline-block">
+            <div class="row justify-content-sm-center justify-content-md-between">
+                <div class="col-md-2 pb-2">
+                    <img src="./images/logo/XBLOG LOGO.png" alt="logo da xblog">
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div>
+                        <nav class="navbar pt-0">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 bg-transparent" type="search" placeholder="Buscar no site" aria-label="Buscar no site">
+                                <button class="btn btn-xblog" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </form>
+                        </nav>
+                    </div>
+                    <div>
+                        <button class="navbar-toggler ms-3" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-auto ps-5">
+                    <nav class="navbar-collapse collapse justify-content-center" id="menu-navegacao">
+                        <ul class="nav nav-pills d-block d-md-flex">
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link active" href="#sobre-o-blog">
+                                    <i class="bi bi-house-door-fill me-1"></i>
+                                    Sobre o blog
+                                </a>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link" href="#entretenimento">
+                                    <i class="bi bi-calendar-check me-1"></i>
+                                    Entretenimento
+                                </a>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link" href="#analise">
+                                    <i class="bi bi-card-text me-1"></i>
+                                    Análises
+                                </a>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link" href="#contato">
+                                    <i class="bi bi-chat-left-text me-1"></i>
+                                    Contato
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-blog">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/SLIDE1.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/SLIDE2.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/SLIDE3.jpg" class="w-100" alt="">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-5">
+                            <img src="images/media/d34ba4c7-846f-47d3-8cda-9565515060d1.png" class="d-block w-100 pe-sm-0 pe-md-5" alt="Foto do espaço interno do restaurante em funcionamento">
+                            <img src="images/icons/2560px-Xbox_Series_X_S_black.svg.png" class="d-block w-100 pe-sm-0 pe-md-5" alt="Foto do espaço interno do restaurante em funcionamento">
+                        </div>
+                        <div class="col-md-7 bg-sobre">
+                            <h3 class="section-title fs-3">Sobre <span class="text-colored">o blog</span></h3>
+                            <p class="fs-3 text-colored">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Suscipit eligendi autem vel error ullam nemo cum voluptatem aspernatur omnis incidunt, 
+                                ipsam totam perspiciatis assumenda earum nesciunt, modi  
+                                sapiente ratione obcaecati.
+                            </p>
+                            <h3 class="section-title fs-3">Sobre <span class="text-colored">nossas análises</span></h3>
+                            <p class="fs-3 text-colored">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Animi eligendi consectetur eaque deserunt! Consequatur fugit modi fugiat error itaque 
+                                officia, tempore qui. Eaque veritatis voluptas distinctio 
+                                quo culpa hic dolorem.
+                            </p>
+                            <div class="xbox-links">
+                                <ul class="ps-0">
+                                    <li>
+                                        <img src="images/icons/microsoft_xbox_controller_icon_136397.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/icons/microsoft_xbox_controller_view_icon_136398.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="images/icons/microsoft_xbox_icon_136396.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="entretenimento" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Entretenimento</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://i0.wp.com/news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/12/Saltsburg_MainVisID_16x9_RGB_JPG.jpg?resize=1200%2C675&ssl=1" class="d-block w-100 rounded mb-2" alt="muffins com velinhas">
+                        <h3 class="section-title text-colored2 fs-5">
+                            <i class="bi bi-person-video3"></i>
+                            XBOX GAME STUDIOS</h3>
+                        <p class="text-colored2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Consectetur harum rerum quis? Atque autem deserunt dolor 
+                            praesentium facilis quisquam, iste quaerat aperiam delectus, 
+                            maxime sequi nobis dolore unde sapiente natus!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i0.wp.com/news.xbox.com/pt-br/wp-content/uploads/sites/8/2022/10/MW2_Launch_CEA_X1_Wire_Hero_16x9-1c39410c01831bb0dde8.jpg?resize=1200%2C675&ssl=1" class="d-block w-100 rounded mb-2" alt="muffins com velinhas">
+                        <h3 class="section-title text-colored2 fs-5">
+                            <i class="bi bi-controller"></i>
+                            JOGOS
+                        </h3>
+                        <p class="text-colored2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Consectetur harum rerum quis? Atque autem deserunt dolor 
+                            praesentium facilis quisquam, iste quaerat aperiam delectus, 
+                            maxime sequi nobis dolore unde sapiente natus!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i0.wp.com/news.xbox.com/pt-br/wp-content/uploads/sites/8/2022/10/Novembro-2022-a7e4bb51b2bcd7f89170.jpg?resize=1200%2C675&ssl=1" class="d-block w-100 rounded mb-2" alt="muffins com velinhas">
+                        <h3 class="section-title text-colored2 fs-5">
+                            <i class="bi bi-collection"></i>
+                            XBOX GAME PASS
+                        </h3>
+                        <p class="text-colored2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Consectetur harum rerum quis? Atque autem deserunt dolor 
+                            praesentium facilis quisquam, iste quaerat aperiam delectus, 
+                            maxime sequi nobis dolore unde sapiente natus!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="analise">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-5 pt-5">
+                        Análises
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2 mb-3">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fps" class="fw-bold text-start nav-link text-colored3 active">FPS</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#rpg" class="fw-bold text-start nav-link text-colored3">RPG</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sports" class="fw-bold text-start nav-link text-colored3">Esportes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#action" class="fw-bold text-start nav-link text-colored3">Ação</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#adventure" class="fw-bold text-start nav-link text-colored3">Aventura</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="fps">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.1582.13566179389346908.76310921-8262-4160-9501-cfa1bd3b1740.075d2ca6-cb00-43b0-bdc4-6b481746c695" alt="">
+                                        <h5 class="text-colored2 fw-bold">Call of Duty®: Modern Warfare® II</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.7705.71571739681700792.c61fa2d7-3d69-4edf-8e51-accc41d47823.fe612f7d-4a9a-4d44-b05f-cc8610770a54" alt="">
+                                        <h5 class="text-colored2 fw-bold">RESIDENT EVIL 2</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.56062.65947022139350472.152efdf1-19be-49a8-a386-bbb716d9a6df.f263df65-0019-45b1-8789-bbbf2674e5fd?q=90&w=320&h=180" alt="">
+                                        <h5 class="text-colored2 fw-bold">Metro Exodus Gold Edition</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.45277.13931022979538067.2af39243-2ffc-4fe4-9870-5a8cc9643d8f.7dff803e-82da-44d2-8922-afbcd42f87a2?q=90&w=320&h=180" alt="">
+                                        <h5 class="text-colored2 fw-bold">Dying Light Definitive Edition</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.14872.67759939744253232.91d27dff-a27e-44ea-9d15-3d3fc6acfd00.f8ad276d-0491-47f4-8b52-d0b5ab0cc5fb" alt="">
+                                        <h5 class="text-colored2 fw-bold">Outlast</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="rpg">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.61962.65858607118306853.bade8222-c0ad-4481-b2d6-b46cc0450658.b0b0c2e5-12e8-4806-a0f3-0de18608a898" alt="">
+                                        <h5 class="text-colored2 fw-bold">The Witcher 3: Wild Hunt</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.3509.64140138686919815.d9e5eb6a-300a-42c9-ad36-95f5a7005152.638b095c-d96b-4bd8-8871-82ce6e64b928" alt="">
+                                        <h5 class="text-colored2 fw-bold">Diablo III: Eternal</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sports">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://assets.xboxservices.com/assets/d7/a0/d7a02eb0-1454-490b-a340-2c7adf6b2b33.jpg?n=FIFA-23_Feature-Image-Priority-Full-Width-0_Tottenham_1248x702.jpg" alt="">
+                                        <h5 class="text-colored2 fw-bold">FIFA 23</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://assets.xboxservices.com/assets/5c/b8/5cb842a6-1a89-4ab1-9814-e08508ccc1de.jpg?n=NBA-2K23_Feature-Image-Priority-Full-Width-0_3-Michael-Jordan_1248x702.jpg" alt="">
+                                        <h5 class="text-colored2 fw-bold">NBA 2K23</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.6667.14187388825692711.26bf747d-a751-4e84-87d8-9bc002a9fa49.39cb4568-a753-41ed-9352-48494658f9bf?q=90&w=320&h=180" alt="">
+                                        <h5 class="text-colored2 fw-bold">Riders Republic</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.2457.68458959458300043.16fe7253-87af-466f-8993-6e686e3b10ef.60da4091-ba3a-4b2b-9106-b54ffa7fbbf9?q=90&w=320&h=180" alt="">
+                                        <h5 class="text-colored2 fw-bold">UFC® 4</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="action">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.22362.14465246778810118.2e560f0f-1dc5-4678-a5a9-479a08e856b0.d1e88e55-438a-4eb2-bbe5-70b973ac69a1?q=90&w=320&h=180" alt="">
+                                        <h5 class="text-colored2 fw-bold">Gunfire Reborn</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="adventure">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://compass-ssl.xbox.com/assets/c0/7d/c07d31f4-92bd-4342-b9d8-8c63aab35981.jpg?n=GTA-V-MWF_gallery-0_1350x759_04.jpg" alt="">
+                                        <h5 class="text-colored2 fw-bold">GTA-V</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://store-images.s-microsoft.com/image/apps.46208.65843946604617087.4d3f1eaa-9f9b-4884-8da5-69d3fa77479f.f4e9d6a0-18c5-41f5-8860-2fb663c547b8?q=90&w=320&h=180" alt="">
+                                        <h5 class="text-colored2 fw-bold">Rayman Legends</h5>
+                                        <p class="text-colored2">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h3 class="section-title fs-5 text-colored2 mt-sm-3 mb-4">
+                                <i class="bi bi-envelope"></i>
+                                Mande uma mensagem</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored2">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored2">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored2">Seu telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored2">Sua mensagem</label>
+                                    <textarea  id="mensagem" class="form-control" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-xblog fw-bold mb-3">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <h3 class="section-title fs-5 text-colored2 mt-sm-3 mb-lg-4 mb-sm-1">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-5 text-colored2 mt-sm-3 mb-4">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                Endereço</h3>
+                            <p class="text-colored2">
+                                Rua Teste HTML, 134 Bootstrap SP
+                            </p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!4v1684678624476!6m8!1m7!1sxqCbavjMbny5jAVab6ETcA!2m2!1d-20.49798174758405!2d-54.67166665377361!3f5.495121050993391!4f-1.120721601113246!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
